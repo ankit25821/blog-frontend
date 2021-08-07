@@ -1,0 +1,108 @@
+.contact-form{
+	background: #fff;
+	width: 50%;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	text-align: center;
+	margin-bottom: 10%;
+	border-radius: 10px;
+	box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.7),
+				inset -2px -2px 10px rgba(0, 0, 0, 0.7);
+	transition: all 0.3s ease-in;
+}
+
+.contact-form:hover{
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5),
+				inset 2px 2px 10px rgba(0, 0, 0, 0.7),
+				inset -2px -2px 10px rgba(0, 0, 0, 0.7);
+	transition: all 0.3s ease-in;
+}
+
+.field{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+	text-align: center;
+}
+
+
+.input{
+	width: 80%;
+	height: 30px;
+	font-size: 20px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 1px solid #000;
+	background: #fff;
+	outline: none;
+	transition: all 0.3s ease-in;
+	color: #000;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.textarea{
+	width: 80%;
+	height: 100px;
+	font-size: 20px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 1px solid #000;
+	background: #fff;
+	outline: none;
+	color: #000;
+	transition: all 0.3s ease-in;
+	font-family: "Times New Roman", Times, serif;
+	resize: none;
+}
+
+::placeholder{
+	color: #000;
+}
+
+.contact-submit{
+	height: 50px;
+	width: 100px;
+	cursor: pointer;
+	font-weight: 900;
+	font-size: 15px;
+	background: none;
+	color: #000;
+	border: 1px solid #000;
+	outline: none;
+	transition: all 0.3s ease-in;
+}
+
+.contact-submit:hover{
+	background: #000;
+	color: #fff;
+	border: 1px solid #000;
+	transition: all 0.3s ease-out;
+}
+
+.success{
+	background: green;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 800;
+	color: #fff;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	transition: all 0.3s ease-in;
+}
+
+@media (max-width: 950px){
+	.contact-form{
+		width: 90%;
+	}
+	.success{
+		width: 90%;
+	}
+}
